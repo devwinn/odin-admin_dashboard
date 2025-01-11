@@ -1,0 +1,15 @@
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+
+#sidebar-container {
+    background-color: rgb(0, 140, 255);
+}
+
+#main-container{
+    background-color: rgb(160, 174, 187);
+}
+
+/* test */
