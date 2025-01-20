@@ -171,10 +171,8 @@ h3 {
     grid-column-end: 7;
     grid-row-start: 7;
     grid-row-end: 10;
-    margin: 0 75px 100px 25px;
-
     grid-template-rows: repeat(3, 1fr);
-
+    margin: 0 75px 100px 25px;
 }
 
 .med-icon {
@@ -247,7 +245,8 @@ h3 {
 }
 
 .trending-card {
-
+    align-items: center;
+    display: flex;
 }
 
 .trending-heading {
@@ -256,6 +255,11 @@ h3 {
     grid-row-start: 6;
     grid-row-end: 7;
     margin-left: 25px;
+}
+
+.trend-icon {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .welcome {
